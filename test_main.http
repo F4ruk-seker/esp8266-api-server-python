@@ -1,0 +1,13 @@
+###
+# Test your FastAPI endpoints
+
+GET http://192.168.0.111/
+Accept: application/json
+###
+
+GET http://192.168.0.111/esp/3450/sensor/25
+Accept: application/json
+
+###
+GET http://192.168.0.111/esp/3450/status
+Accept: application/json
